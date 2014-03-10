@@ -26,7 +26,7 @@
       <file leaf-file-name="cover.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/cover.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.18701299" vertical-offset="0" max-vertical-offset="1155">
+            <state line="12" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.23101604" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -121,8 +121,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-2" />
-    <option name="width" value="2404" />
-    <option name="height" value="1327" />
+    <option name="width" value="2400" />
+    <option name="height" value="1107" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -381,14 +381,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="2404" height="1327" extended-state="6" />
+    <frame x="-2" y="0" width="2400" height="1107" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13998944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1527135" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15297092" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -578,7 +578,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/cover.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.18701299" vertical-offset="0" max-vertical-offset="1155">
+        <state line="12" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.23101604" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
