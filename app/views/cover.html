@@ -1,4 +1,3 @@
-
 <div class="row" id="signup-cover">
     <div class="col-md-12 text-center v-center">
 
@@ -10,8 +9,11 @@
         <form class="form-group" ng-submit="submit()">
             <div class="input-group input-group-lg" style="width:28%;margin:0 auto;">
                 <input class="form-control input-lg"
+                       ng-model="petition.name"
+                       placeholder="Je naam" />
+                <input class="form-control input-lg"
                        ng-model="petition.email"
-                       placeholder="Je naam"/>
+                       placeholder="Je e-mail adres ter controle (geen spam!)"/>
                 <input class="form-control input-lg" style="height:75px;" 
                        ng-model="petition.text"
                        placeholder="Dus Mark naar Manhattan omdat: "/>
