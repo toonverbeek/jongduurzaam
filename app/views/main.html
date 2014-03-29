@@ -1,16 +1,18 @@
-<br />
-<br />
-<br />
-<br />
-
-<div class="row">
-    <div class="col-md-4" ng-repeat="pp in petitions">
-        <div class="panel panel-info">
-            <div class="panel-heading text-center"><h4>{{pp.email}}</h4></div>
-            <div class="panel-body text-center v-center">
+<div class="row text-center" id="petitions">
+    <h1>Deze mensen waren je al voor</h1>
+    <br />
+    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" ng-repeat="pp in petitions">
+        <br />
+        <div class="bubble">
+            <div class="text-center"><h4><b>{{pp.email}}</b></h4></div>
+            <div class="text-center v-center">
                 {{pp.text}}
             </div>
         </div>
+        
+    <br />
+    <br />
+    <br />
     </div>
 </div>
 
