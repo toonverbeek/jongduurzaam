@@ -1,9 +1,17 @@
 <div class="row" id="signup-cover">
+
     <div class="col-md-12 text-center v-center">
+        <div id="alert-placeholder-failure" class="alert alert-danger" style="display: none;">
+            <a href="#" class="close" data-dismiss="alert">&times;</a>
+            Dit e-mail adres bestaat al reeds in ons systeem of is niet geldig.
+            Probeer het later nog een keer.
+        </div>
+        <div id="alert-placeholder-success" class="alert alert-success" style="display: none;">
+            <a href="#" class="close" data-dismiss="alert">&times;</a>
+            Je hebt je successvol geregistreerd. Bedankt voor je hulp!
+        </div>
+        <span class="h1" id="header-text">#Dus Mark Naar Manhattan</span>
 
-        <h1 style="color:white;">#Dus Rutte Naar Manhattan</h1>
-
-        <p class="lead" style="color:white;">Super overtuigende tekst om je over te halen.</p>
         <br><br>
 
         <form class="form-group" ng-submit="submit()">
@@ -22,7 +30,6 @@
                 <button class="btn btn-lg btn-success" type="submit">Verstuur naar Mark</button>
             </div>
         </form><br /><br />
-
     </div>
 
 
