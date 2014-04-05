@@ -26,6 +26,18 @@ h1{
     font-size: 4.7vw;
 }
 
+/* Custom navbar */
+.nav-custom{
+    margin-top:2px;
+    position:fixed;
+    min-width:100%;
+    z-index: 100;
+
+}
+
+.nav-custom li a{
+    color: #a3cd39;
+}
 
 /* Custom container */
 .container-full {
@@ -44,9 +56,16 @@ h1{
     background-size: cover;
 }
 
+.uneven-row{
+    background-color:#eef1f2;
+
+}
+
+.even-row{
+    background-color:white;
+}
 #social{
     //background-color:#F3F3F3;
-    background-color:white;
     color:black;
     width:100.0%;
     margin: 0 auto;
@@ -55,6 +74,7 @@ h1{
 .smedia-icon{
     width:100%;
     max-width:50px;
+    max-height:50px;
 }
 
 #un-logo{
@@ -65,7 +85,11 @@ h1{
 #njr-logo{
     width:100%;
     max-width:85px;
+}
 
+#jongduurzaam-logo{
+    max-width:85px;
+    max-height:85px;
 }
 @media(max-width: 480px) {
     .h1 {
@@ -73,7 +97,6 @@ h1{
     }
 }
 #about{
-
     text-align: justify;
     padding: 10px auto;
     color:rgb(83,83,83);
@@ -81,12 +104,14 @@ h1{
 
 #petitions{
     min-height:75%;
-    background-color:#eef1f2;
     width:100.0%;
     margin: 0 auto;
 
 }
-
+#over-ons{
+    padding: 5% 0 5% 0;
+    
+}
 .container-full a {
     color:#efefef;
     text-decoration:none;
@@ -95,30 +120,37 @@ h1{
 .v-center {
     margin-top:7%;
 }
+#contact{
+    background-color:#2e3234;
+    color:white;
+    padding:3%;
+    margin:0 auto;
+
+}
 
 .bubble {
-  position: relative;
-  background-color:white;
-  margin: 0;
-  padding:10px;
-  text-align:center;
-  width:180px;
-  -moz-border-radius:10px;
-  -webkit-border-radius:10px;
-  -webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
-  -moz-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
-  box-shadow: 0px 0 3px rgba(0,0,0,0.25); 
+    position: relative;
+    background-color:white;
+    margin: 0;
+    padding:10px;
+    text-align:center;
+    width:180px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
+    box-shadow: 0px 0 3px rgba(0,0,0,0.25); 
 }
 .bubble:after {
-  position: absolute;
-  display: block;
-  content: "";  
-  border-color: white transparent transparent transparent;
-  border-style: solid;
-  border-width: 10px;
-  height:0;
-  width:0;
-  position:absolute;
-  bottom:-19px;
-  left:1em;
+    position: absolute;
+    display: block;
+    content: "";  
+    border-color: white transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    height:0;
+    width:0;
+    position:absolute;
+    bottom:-19px;
+    left:1em;
 }

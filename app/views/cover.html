@@ -3,26 +3,25 @@
     <div class="col-md-12 text-center v-center">
         <div id="alert-placeholder-failure" class="alert alert-danger" style="display: none;">
             <a href="#" class="close" data-dismiss="alert">&times;</a>
-            Dit e-mail adres bestaat al reeds in ons systeem of is niet geldig.
-            Probeer het later nog een keer.
+            Dit e-mail adres is al eens gebruikt om een boodschap te versturen.
         </div>
         <div id="alert-placeholder-success" class="alert alert-success" style="display: none;">
             <a href="#" class="close" data-dismiss="alert">&times;</a>
-            Je hebt je successvol geregistreerd. Bedankt voor je hulp!
+            Bedankt voor je boodschap!
         </div>
         <span class="h1" id="header-text">#Dus Mark Naar Manhattan</span>
 
         <br><br>
 
         <form class="form-group" ng-submit="submit()">
-            <div class="input-group input-group-lg" style="width:28%;margin:0 auto;">
+            <div class="input-group input-group-lg" style="margin:0 auto;">
                 <input class="form-control input-lg"
                        ng-model="petition.name"
-                       placeholder="Je naam" />
+                       placeholder="Je (voor)naam" />
                 <input class="form-control input-lg"
                        ng-model="petition.email"
                        placeholder="Je e-mail adres ter controle (geen spam!)"/>
-                <input class="form-control input-lg" style="height:75px;" 
+                <input class="form-control input-lg" 
                        ng-model="petition.text"
                        placeholder="Dus Mark naar Manhattan omdat: "/>
                 <br />
