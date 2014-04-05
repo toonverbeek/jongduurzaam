@@ -28,15 +28,21 @@ h1{
 
 /* Custom navbar */
 .nav-custom{
-    margin-top:2px;
     position:fixed;
     min-width:100%;
     z-index: 100;
+    border:none;
+    background-color:#a3cd39;
+    font-size:1.3em;
+}
+
+.nav-item{
+    cursor:pointer;
 
 }
 
-.nav-custom li a{
-    color: #a3cd39;
+li a{
+    color:white;
 }
 
 /* Custom container */
@@ -58,17 +64,19 @@ h1{
 
 .uneven-row{
     background-color:#eef1f2;
+    margin: 0 auto;
 
 }
 
 .even-row{
     background-color:white;
+    margin: 0 auto;
+
 }
 #social{
     //background-color:#F3F3F3;
     color:black;
     width:100.0%;
-    margin: 0 auto;
     padding: 5% 0 5% 0;
 }
 .smedia-icon{
@@ -105,12 +113,11 @@ h1{
 #petitions{
     min-height:75%;
     width:100.0%;
-    margin: 0 auto;
-
 }
-#over-ons{
+
+#over-ons, #meer-informatie{
     padding: 5% 0 5% 0;
-    
+
 }
 .container-full a {
     color:#efefef;
