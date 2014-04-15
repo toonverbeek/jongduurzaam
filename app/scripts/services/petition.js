@@ -28,6 +28,7 @@ app.factory('Petition', function($firebase, FIREBASE_URL) {
             }
             else {
                 $('#alert-placeholder-success').hide();
+                $('#alert-placeholder-failure').html('Dit e-mail adres is al eens gebruikt om een boodschap te versturen.');
                 $('#alert-placeholder-failure').show();
                 return new Error("Dit e-mail adres staat al geregistreerd in ons systeem!");
             }

@@ -14,6 +14,10 @@ var app = angular.module('jongduurzaamApp', [
         templateUrl: 'views/main.html',
         controller: 'PetitionCtrl'
       })
+      .when('/admin/', {
+        templateUrl: 'views/admin.html',
+        controller: 'LoginCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

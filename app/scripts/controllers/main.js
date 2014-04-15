@@ -10,6 +10,12 @@ app.controller('PetitionCtrl', function($scope, $location, $anchorScroll, Petiti
             if ($scope.petition.text.length === 0) {
                 $scope.petition.text = 'Ik steun deze petitie!';
             }
+
+            if (document.getElementById('check-email').checked) {
+                $scope.petition.followup = 1;
+            } else {
+                $scope.petition.followup = -1;
+            }
             Petition.create($scope.petition).then(function(ref) {
                 //todo: reroute to correct page.
 

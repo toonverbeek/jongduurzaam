@@ -1,6 +1,9 @@
 <div class="row" id="signup-cover">
-
+    <!--<div class="col-md-offset-4 col-md-offset-6" style="padding-top:35px; padding-bottom:0px;">
+        <img src="images/mnm_logo.png" alt="MnM logo" class="img-responsive" />
+    </div> -->
     <div class="col-md-12 text-center v-center">
+        <span class="h1" id="header-text"><a style="color:yellow;">#</a>Dus Mark Naar Manhattan</span>
         <div id="alert-placeholder-failure" class="alert alert-danger" style="display: none;">
             <a href="#" class="close" data-dismiss="alert">&times;</a>
             Dit e-mail adres is al eens gebruikt om een boodschap te versturen.
@@ -9,7 +12,7 @@
             <a href="#" class="close" data-dismiss="alert">&times;</a>
             Bedankt voor je boodschap!
         </div>
-        <span class="h1" id="header-text">#Dus Mark Naar Manhattan</span>
+        <!--<span class="h1" id="header-text">#Dus Mark Naar Manhattan</span> -->
 
         <br><br>
 
@@ -24,6 +27,8 @@
                 <input class="form-control input-lg" 
                        ng-model="petition.text"
                        placeholder="Dus Mark naar Manhattan omdat: "/>
+
+                <input type="checkbox" id="check-email" class="checkbox-inline">&nbsp &nbsp<span style="color:black;background-color:#a3cd39;"><b>Hou mij op de hoogte van deze actie</b></span>
                 <br />
                 <br />
                 <button class="btn btn-lg btn-success" type="submit">Verstuur naar Mark</button>
