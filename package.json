@@ -47,5 +47,19 @@
   },
   "scripts": {
     "test": "grunt test"
-  }
+  },
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tonnu/jongduurzaam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tonnu/jongduurzaam/issues"
+  },
+  "homepage": "https://github.com/Tonnu/jongduurzaam"
 }
