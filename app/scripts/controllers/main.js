@@ -4,6 +4,8 @@ app.controller('PetitionCtrl', function($scope, $location, $anchorScroll, Petiti
     $scope.petition = {name: '', email: '', text: ''};
     $scope.petitions = Petition.all;
     $scope.amountOfPetitions = $scope.petitions.$getIndex().length;
+    
+
     $scope.submit = function() {
         if ($scope.petition.name !== '' && $scope.petition.email !== '' && $scope.petition.email.indexOf('@') !== -1 && $scope.petition.email.indexOf('.') !== -1
                 && $scope.petition.email.length >= 5) {
@@ -39,7 +41,6 @@ app.controller('PetitionCtrl', function($scope, $location, $anchorScroll, Petiti
 
     $scope.init = function() {
         $scope.amountOfPetitions = $scope.petitions.$getIndex().length;
-
     };
 
     $scope.goToElement = function(navitem, category) {
