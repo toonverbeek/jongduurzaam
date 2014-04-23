@@ -1,6 +1,7 @@
 html,body {
     height:100%;
-    background-color:#75a6e7;
+    //background-color:#75a6e7;
+    background-color:#3686be;
 }
 
 @font-face  {
@@ -58,7 +59,7 @@ li a{
     color:#eee;
     overflow:hidden;
     //background: url("http://farm9.staticflickr.com/8521/8637654449_da55cff13d_b.jpg") no-repeat center fixed;
-    background: url("../images/manhattan.jpg") no-repeat center fixed;
+    //background: url("../images/manhattan.jpg") no-repeat center fixed;
     //background-size:100%;
 
     -webkit-background-size: cover;
