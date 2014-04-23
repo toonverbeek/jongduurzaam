@@ -38,7 +38,12 @@ h1{
 
 .nav-item{
     cursor:pointer;
+    background-color:#a3cd39;
+}
 
+/* Fix so for navbar-nav & nav-justify work together */ 
+.navbar-nav.nav-justified > li{
+    float:none;
 }
 
 li a{
