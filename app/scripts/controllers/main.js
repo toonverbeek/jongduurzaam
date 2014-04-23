@@ -3,7 +3,13 @@
 app.controller('PetitionCtrl', function($scope, $location, $anchorScroll, Petition) {
     $scope.petition = {name: '', email: '', text: ''};
     $scope.petitions = Petition.all;
-    $scope.amountOfPetitions = $scope.petitions.$getIndex().length;
+    $scope.amountOfPetitions = $scope.petitions.$getIndex();
+    
+       
+    $scope.petitions.$on("change", function() {
+        $scope.amountOfPetitions = $scope.petitions.$getIndex();
+    });
+    
     
 
     $scope.submit = function() {
@@ -19,13 +25,8 @@ app.controller('PetitionCtrl', function($scope, $location, $anchorScroll, Petiti
                 $scope.petition.followup = -1;
             }
             Petition.create($scope.petition).then(function(ref) {
-                //todo: reroute to correct page.
-
-                console.log($scope.petitions.count() + ' have already signed up.');
                 $scope.successsful = true;
                 $scope.petition = {name: '', email: '', text: ''};
-                $scope.amountOfPetitions = $scope.petitions.$getIndex().length;
-                console.log(Petition.all.$getIndex().length);
             });
         } else if ($scope.petition.email.indexOf('@') === -1 || $scope.petition.email.indexOf('.') === -1 || $scope.petition.email.length < 5) {
             $('#alert-placeholder-success').hide();
@@ -40,7 +41,7 @@ app.controller('PetitionCtrl', function($scope, $location, $anchorScroll, Petiti
     };
 
     $scope.init = function() {
-        $scope.amountOfPetitions = $scope.petitions.$getIndex().length;
+
     };
 
     $scope.goToElement = function(navitem, category) {

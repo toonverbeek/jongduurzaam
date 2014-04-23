@@ -3,7 +3,7 @@
  */
 
 'use strict';
-app.factory('Petition', function($firebase, FIREBASE_URL) {
+app.factory('Petition', function($firebase, FIREBASE_URL, $rootScope) {
     var ref = new Firebase(FIREBASE_URL + '/jongduurzaam'); //create a reference to the correct database
 
     var petitions = $firebase(ref); //create the reference to the json object containing the petitions
@@ -24,6 +24,7 @@ app.factory('Petition', function($firebase, FIREBASE_URL) {
             if (!exists) {
                 $('#alert-placeholder-failure').hide();
                 $('#alert-placeholder-success').show();
+
                 return petitions.$add(petition);
             }
             else {
@@ -42,10 +43,11 @@ app.factory('Petition', function($firebase, FIREBASE_URL) {
         update: function(petitionId) {
 
         },
-        count: function() {
-            while (petitions.$getIndex() === 0)
-                ;
-            return petitions.$getIndex().length;
+        count: function(){
+            while(petitions.length === 0){
+                //wait for firebase data to load
+            }
+            return petitions.length;
         }
     };
 
