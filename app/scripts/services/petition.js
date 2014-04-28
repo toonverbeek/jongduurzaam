@@ -42,12 +42,6 @@ app.factory('Petition', function($firebase, FIREBASE_URL, $rootScope) {
         },
         update: function(petitionId) {
 
-        },
-        count: function(){
-            while(petitions.length === 0){
-                //wait for firebase data to load
-            }
-            return petitions.length;
         }
     };
 

@@ -59,7 +59,7 @@ li a{
     color:#eee;
     overflow:hidden;
     //background: url("http://farm9.staticflickr.com/8521/8637654449_da55cff13d_b.jpg") no-repeat center fixed;
-    //background: url("../images/manhattan.jpg") no-repeat center fixed;
+    background: url("../images/manhattan2.jpg") no-repeat center fixed;
     //background-size:100%;
 
     -webkit-background-size: cover;
@@ -148,7 +148,8 @@ li a{
     padding:10px;
     text-align:center;
     min-width:180px;
-    min-height:150px;
+    height:200px;
+    overflow:hidden;
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
     -webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.25);
